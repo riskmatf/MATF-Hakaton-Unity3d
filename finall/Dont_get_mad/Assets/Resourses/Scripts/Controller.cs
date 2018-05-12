@@ -200,6 +200,7 @@ public class Controller : MonoBehaviour {
 					if(	FiledType.BeginBlue == bf.ftype || FiledType.BeginGreen == bf.ftype 
 						|| FiledType.BeginRed == bf.ftype || FiledType.BeginYellow == bf.ftype)
 					{
+						yield return new WaitForSeconds(1);
 						continue;
 					}
 					else
